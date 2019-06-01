@@ -1,0 +1,11 @@
+componentDidMount() {
+  document.title = `You clicked ${this.state.count} times`;
+}
+
+componentDidUpdate() {
+  document.title = `You clicked ${this.state.count} times`;
+}
+
+componentWillUnmount() {
+  document.title = '';
+}

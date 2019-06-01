@@ -1,0 +1,14 @@
+const Counter = () => {
+  return (
+    <CounterWrapper
+      render={
+        ({ increment, decrement, count }) => (
+          <CounterUI
+            increment={increment}
+            decrement={decrement}
+            count={count} />
+        )
+      }>
+    </CounterWrapper>
+  )
+}

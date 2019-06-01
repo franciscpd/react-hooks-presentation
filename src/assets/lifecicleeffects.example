@@ -1,0 +1,11 @@
+//componentDidMount e componentDidUpdate
+useEffect(() => {
+  document.title = `You clicked ${count} times`;
+}); //, [])
+
+//componentWillUnmount
+useEffect(() => {
+  return () => {
+    document.title = '';
+  };
+});
