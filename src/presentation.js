@@ -96,7 +96,7 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="secondary">
           <Heading size={6} textColor="secondary" caps>
-            O que é Hooks?
+            O que são Hooks?
           </Heading>
         </Slide>
         <Slide transition={["fade"]} bgColor="secondary">
@@ -194,8 +194,8 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={["fade"]} bgColor="secondary">
           <Text size={6} textColor="primary" textAlign="left">
-            Então para mim ter mais de um estado eu sempre tenho que declarar o
-            const [] = useState ?
+            Então para ter mais de um estado devo sempre declarar o const [] =
+            useState?
           </Text>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
